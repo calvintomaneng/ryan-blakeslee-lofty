@@ -1,0 +1,75 @@
+/* Global CSS */
+
+/* R+B globals */
+:root{--rb-b:#1C1C1C;--rb-s:#E6E2DD;--rb-w:#F4F2EE;--rb-br:#6B5B4B;--rb-a:#2FC7C3;--header-hovercolor: #2FC7C3 !important;}
+
+/* Header */
+header .head-account{display:none!important}
+.md-header.layout3 .header-container .head-menu{justify-content:flex-end!important}
+.header-container .left-menu{justify-content:flex-end!important}
+.header-container .right-menu{justify-content:flex-start!important}
+
+/* Header hover + underline */
+.md-header.layout3 .header-container :is(.head-menu,.head-account)>.menu-item .wrapper .menu-item:hover{color:var(--rb-s)!important;background:var(--rb-a)!important}
+.md-header.layout3 .header-container :is(.head-menu,.head-account)>.menu-item:is(.active,:hover):before{height:2px!important;background:var(--rb-a)!important}
+
+/* Header text */
+.md-header.layout3 .header-container :is(.head-menu,.head-account)>.menu-item .wrapper a{text-transform:uppercase!important;font-size:13px!important}
+
+/* Header menu */
+.md-header.layout4 .header-container .left-menu>.menu-item, .md-header.layout4 .header-container .right-menu>.menu-item {padding-left:40px!important;padding-right:40px!important}
+.md-header.layout4 .header-container :is(.left-menu,.right-menu,.head-account)>.menu-item>a,
+.md-header.layout4 .header-container .menu-item.more>a{padding:40px 0!important}
+.md-header.layout4:not(.mobile) .logo-menu {margin:0 70px!important;}
+.md-header.layout4 .header-container .left-menu>.menu-item .wrapper, .md-header.layout4 .header-container .right-menu>.menu-item .wrapper, .md-header.layout4 .header-container .head-account>.menu-item .wrapper, .md-header.layout4 .header-container .menu-item.more .wrapper { left: -40px !important; right: -40px !important; text-align: center !important; padding: 20px 0 !important; }
+.md-header.layout4 .header-container .menu-item .wrapper a {text-transform:uppercase!important;font-size:14px!important;}
+
+/* Footer base */
+footer .agent-wrap{display:none!important}
+.bottom-content .copyright,
+.bottom-content .mls-declaimer-container-v2 .declaimer .content{color:#ffffff99!important}
+.top-content .menu-wrap .menu-item .footer-submenu .sub-menu>a:before{background:var(--rb-a)!important}
+.bottom-content .copyright .ppt :is(a,span):hover{color:var(--rb-a)!important}
+
+/* Footer layout1 */
+@media(max-width:600px){
+  .md-footer.layout1 .top-content .agent-logo .logo-wrap .site-logo .logo-item:last-child{max-width:100%!important;height:auto!important}
+  .md-header.mobile.layout3 .nav-container{margin-top:-2px!important}
+}
+@media(min-width:601px){
+  .md-footer.layout1 .top-content .menu-wrap{margin-top:50px!important;grid-template-columns:repeat(6,1fr)!important;border-top:1px solid #ffffff77!important;padding:40px 200px 0!important}
+  .md-footer.layout1 .top-content .menu-wrap .menu-item .footer-submenu{margin-top:16px!important}
+}
+
+/* Footer layout4 menu */
+.md-footer.layout4 .menu-wrap{column-gap:50px!important;justify-content:center}
+.md-footer.layout4 .menu-wrap .menu-item{width:auto!important}
+.md-footer .detail-info .detail-addr{padding-right:0!important}
+.md-footer.layout4 :is(.share-links-wrap,.share-links){width:256px!important}
+.md-footer.layout4 .menu-wrap .menu-item .footer-submenu{margin-top:12px!important}
+.md-footer.layout4 .menu-wrap .menu-item .footer-menu .menu-label:before{background:var(--rb-a)!important}
+.md-footer.layout4 .menu-wrap .menu-item .footer-menu .menu-label{line-height:1.9!important}
+.md-footer.layout4{background-position:center top!important;background-repeat:no-repeat!important}
+.md-footer .copyright * {text-decoration:none!important}
+
+/* RMLS + text */
+.mls-declaimer-container-v2 .declaimer .mls-logo .logo{margin:unset!important}
+.md-footer.layout4 .bottom-content .mls-declaimer-container-v2 .declaimer+.declaimer{margin-top:1rem!important}
+.md-footer.layout4 .bottom-content .mls-declaimer-container-v2 .content.site-p{text-align:left!important}
+.site-p.content{line-height:1.9}
+.mls-declaimer-container-v2 .site-p.content br{display:none}
+.md-footer.layout4 .bottom-content{margin-top:0!important}
+.md-footer.layout4 .bottom-content .mls-declaimer-container-v2{padding-top:0!important}
+@media(max-width:600px){
+  .md-footer.layout4 .bottom-content .mls-declaimer-container-v2{padding-top:10px!important}
+}
+
+/* Privacy/Terms + Sitemap pages */
+:where(.privacy-terms,.property-listings-sitemap,.sitemap,.accessibility) .md-header.layout3.transparent .header-container .header-bg,
+:where(.privacy-terms,.property-listings-sitemap,.sitemap,.accessibility,.listing) .md-footer.layout3{background:var(--rb-b)!important}
+.privacy-terms .page-content .md-privacy-terms{padding-top:100px!important}
+:where(.property-listings-sitemap,.sitemap,.accessibility) .page-content{padding-top:140px!important}
+:where(.property-listings-sitemap,.sitemap,.accessibility) .md-banner.layout2.mg-bg{display:none!important}
+
+/* MLS logos */
+.mls-logo .logo,.house-mls-logo{border-radius:4px!important}
