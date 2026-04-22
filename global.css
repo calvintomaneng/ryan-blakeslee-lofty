@@ -1,8 +1,16 @@
 /* Global CSS */
 
 /* Site Settings Dup */
+/* Header Menu Accent */
 header.md-header .header-container{
   --header-hovercolor: var(--accent) !important;
+}
+
+/* Privacy Page Links */
+.privacy-terms {
+  .dom-wrap a {
+    color: var(--text-body) !important;
+  }
 }
 
 /* R+B globals */
@@ -76,11 +84,6 @@ footer .agent-wrap{display:none!important}
 .privacy-terms .page-content .md-privacy-terms{padding-top:100px!important}
 :where(.property-listings-sitemap,.sitemap,.accessibility) .page-content{padding-top:140px!important}
 :where(.property-listings-sitemap,.sitemap,.accessibility) .md-banner.layout2.mg-bg{display:none!important}
-.privacy-terms {
-  .dom-wrap a {
-    color: var(--text-body) !important;
-  }
-}
 
 /* MLS logos */
 .mls-logo .logo,.house-mls-logo{border-radius:4px!important}
