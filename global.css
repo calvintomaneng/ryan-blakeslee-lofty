@@ -77,7 +77,7 @@ footer .agent-wrap{display:none!important}
 :where(.property-listings-sitemap,.sitemap,.accessibility) .page-content{padding-top:140px!important}
 :where(.property-listings-sitemap,.sitemap,.accessibility) .md-banner.layout2.mg-bg{display:none!important}
 .privacy-terms {
-  .md-privacy-terms a {
+  .dom-wrap a {
     color: var(--text-body) !important;
   }
 }
