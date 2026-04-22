@@ -2,6 +2,7 @@
 
 /* R+B globals */
 :root{--rb-b:#1C1C1C;--rb-s:#E6E2DD;--rb-w:#F4F2EE;--rb-br:#6B5B4B;--rb-a:#2FC7C3;--header-hovercolor: #2FC7C3 !important;}
+:root{--bg-dark:#1C1C1C;--text-body:#6B5B4B;--accent:#2FC7C3;--bg-soft:#E6E2DD;--bg-main:#F4F2EE;--header-hovercolor: #2FC7C3 !important}
 
 /* Header */
 header .head-account{display:none!important}
