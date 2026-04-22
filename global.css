@@ -9,6 +9,9 @@ header .head-account{display:none!important}
 .md-header.layout3 .header-container .head-menu{justify-content:flex-end!important}
 .header-container .left-menu{justify-content:flex-end!important}
 .header-container .right-menu{justify-content:flex-start!important}
+header.md-header .header-container{
+  --header-hovercolor: var(--accent) !important;
+}
 
 /* Header hover + underline */
 .md-header.layout3 .header-container :is(.head-menu,.head-account)>.menu-item .wrapper .menu-item:hover{color:var(--rb-s)!important;background:var(--rb-a)!important}
