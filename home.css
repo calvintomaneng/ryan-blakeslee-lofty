@@ -101,4 +101,12 @@
     display:none !important;
   }
 
+  .md-header.layout4 .header-container :is(.left-menu,.right-menu,.head-account)>.menu-item>a {
+    padding-bottom: 0 !important;
+  }
+  .md-header.layout4 .header-container .left-menu>.menu-item .wrapper, .md-header.layout4 .header-container .right-menu>.menu-item .wrapper, .md-header.layout4 .header-container .head-account>.menu-item .wrapper, .md-header.layout4 .header-container .menu-item.more .wrapper {
+    text-align: left !important;
+    padding-bottom: 3rem !important;
+  }
+
 }
