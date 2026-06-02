@@ -1,3 +1,190 @@
+/* Home Page */
+
+/* Hero */
+@media (max-width: 600px) {
+  div[data-uuid="3be23f7d-0bc1-4219-bef9-f1f0ef8799ce"] {
+    .title-image {
+      margin: 40px 0 0!important;
+    }
+    .title-image img {
+      max-height: 100px !important;
+      height: auto !important;
+      max-width: 80% !important;
+    }
+  }
+}
+
+/* Kicker */
+div[data-uuid="aa771504-9c9d-4df4-9568-3e70cfa0d238"] .title h2 strong {
+  color: var(--rb-a) !important;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+  font-family: font-Manrope-200 !important;
+  letter-spacing: 2px !important;
+}
+
+/* Shay+Carl Intro */
+@media (max-width: 600px) {
+  div[data-uuid="aa771504-9c9d-4df4-9568-3e70cfa0d238"] {
+    padding: 0 !important;
+  }
+}
+@media (min-width: 601px) {
+  div[data-uuid="aa771504-9c9d-4df4-9568-3e70cfa0d238"] {
+    padding: 280px 0 240px!important;
+  }
+}
+
+div[data-uuid="aa771504-9c9d-4df4-9568-3e70cfa0d238"] {
+  background-color: var(--rb-s) !important;
+
+  .cta-container {
+    width: var(--module-width, 1000px) !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+  .img-column {
+    padding: 4rem !important;
+  }
+  .copy-column {
+    padding: 20px 60px !important;
+  }
+  .copy-content h2 {
+    font-size: 34px !important;
+  }
+  .btn-item {
+    font-size: 16px !important;
+    font-family: font-Urbanist-400 !important;
+  }
+}
+
+/* Stats */
+div[data-uuid="a6842932-7818-4f60-8183-d35ff0f6a48d"] {
+  padding: 0rem 0 14rem !important;
+  /* .site-title,
+  .description {
+    display: none !important;
+  } */
+  .desc-list .text {
+    text-transform: uppercase !important;
+    font-size: 1rem !important;
+    color: var(--text-body) !important;
+  }
+  /* .desc-list {
+    margin: 30px auto 0 !important;
+  } */
+}
+
+/* Featured Review */
+div[data-uuid="d102d76b-1164-4f0a-9b36-142b76813b17"] {
+  .review-title {
+    margin-bottom: 0 !important;
+  }
+  .review-transaction {
+    display: none !important;
+  }
+  .review-slider-item {
+    justify-content: center !important;
+  }
+}
+@media (min-width: 801px) {
+  .reviews-wrap .review-slider-item .review-star .icon-Star {
+    background: #D97A1F !important;
+    -webkit-background-clip: text !important;
+    font-size: 25px !important;
+  }
+}
+
+/* 3-Card CTA */
+div[data-uuid="4d470bc3-0236-4fde-94c9-263faebafdd2"] {
+  background-color: var(--rb-s) !important;
+  .content{
+    width: var(--module-width, 1000px) !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    display:flex !important;
+    gap: 40px !important;
+    padding:0 0 240px !important;
+    box-sizing:border-box !important;
+  }
+  .content .card .site-card {
+    background: unset !important;
+    transition: all ease 0.3s !important;
+    padding: 160px 0px !important;
+  }
+  .content .card .site-card .button {
+    border-color: #fff !important;
+  }
+  .content .card:hover .img-mask {
+    backdrop-filter: blur(8px);
+    background-color: rgba(25, 25, 25, 0.9) !important;
+    transition: all ease 0.3s !important;
+  }
+  .content .card .img-mask {
+    transition: all ease 0.3s !important;
+  }
+  .content .card:hover .site-card {
+    transition: all ease 0.3s !important;
+    transform: translateY(-8px);
+  }
+  .site-title h2 strong {
+    color: var(--rb-a) !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    letter-spacing: 2px !important;
+    font-family: font-Manrope-200 !important;
+  }
+  .site-title h2, p {
+    color: #fff !important;
+  }
+  a.button {
+    background-color: var(--text-body) !important;
+    border: none !important;
+    font-family: font-Urbanist-400 !important;
+  }
+}
+
+/* Featured Listings */
+div[data-uuid="93ae7474-5f55-4e33-9bfc-c83865486190"] {
+  background-color: var(--rb-s) !important;
+  padding: 0 0 0px !important;
+  .site-button {
+    font-size: 16px !important;
+    font-family: font-Urbanist-400 !important;
+    line-height: 18px !important;
+  }
+}
+
+/* Footer CTA */
+div[data-uuid="0f30e174-84f8-46d6-b6ae-4cbeffeb82c5"] {
+  padding: 16rem 0 16rem !important;
+  .img-content {
+    clip-path: unset !important;
+  }
+  .text-content {
+    gap: 60px !important;
+  }
+  .text-content *, .banner-button-v2 {
+    text-align: left !important;
+    justify-content: left !important;
+  }
+  .site-title h2 {
+    font-family: font-Urbanist-400 !important;
+    font-size: 34px !important;
+  }
+  .site-title h2 strong {
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    letter-spacing: 2px !important;
+    color: var(--text-body) !important;
+    font-family: font-Manrope-200 !important;
+  }
+  .btn-item {
+    font-family: font-Urbanist-400 !important;
+  }
+}
+
 @media (max-width: 600px) {
   div[data-uuid="aa771504-9c9d-4df4-9568-3e70cfa0d238"] {
     .img-column {
