@@ -81,6 +81,19 @@ footer .agent-wrap{display:none!important}
 .md-footer.layout4{background-position:center top!important;background-repeat:no-repeat!important}
 .md-footer .copyright * {text-decoration:none!important}
 
+@media (max-width: 800px) {
+  .md-footer.layout4 :is(.share-links-wrap,.share-links) {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  .bottom-content *, .mls-declaimer-container-v2 * {
+    text-align: center !important;
+    justify-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
 /* RMLS + text */
 .mls-declaimer-container-v2 .declaimer .mls-logo .logo{margin:unset!important}
 .md-footer.layout4 .bottom-content .mls-declaimer-container-v2 .declaimer+.declaimer{margin-top:1rem!important}
